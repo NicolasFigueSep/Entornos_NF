@@ -47,7 +47,7 @@ public class Pruebas_Simples_NF_Test {
     @Test
     public void testOrdenaMatrizPos() {
         System.out.println("ordenaMatriz");
-        int[] matriz ={3,2,4,1,9};;
+        int[] matriz ={3,2,4,1,9};
         int[] expResult ={1,2,3,4,9};
         int[] result = entornos_NF.ordenaMatriz(matriz);
         assertArrayEquals(expResult, result);
@@ -58,7 +58,7 @@ public class Pruebas_Simples_NF_Test {
     @Test
     public void testOrdenaMatrizNeg() {
         System.out.println("ordenaMatriz");
-        int[] matriz ={-3,-2,-4,-1,-9};;
+        int[] matriz ={-3,-2,-4,-1,-9};
         int[] expResult ={-9,-4,-3,-2,-1};
         int[] result = entornos_NF.ordenaMatriz(matriz);
         assertArrayEquals(expResult, result);
@@ -69,7 +69,7 @@ public class Pruebas_Simples_NF_Test {
     @Test
     public void testOrdenaMatrizPosNeg() {
         System.out.println("ordenaMatriz");
-        int[] matriz ={-3,2,-4,1,-9};;
+        int[] matriz ={-3,2,-4,1,-9};
         int[] expResult ={-9,-4,-3,1,2};
         int[] result = entornos_NF.ordenaMatriz(matriz);
         assertArrayEquals(expResult, result);
