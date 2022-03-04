@@ -65,7 +65,7 @@ public class Pruebas_Parametrizadas_NF_Test {
      * Test of ordenaMatriz method, of class entornos_NF.
      */
     @Test
-    public void testOrdenaMatrizPos() {
+    public void testOrdenaMatriz() {
         System.out.println("ordenaMatriz");
         matriz = entornos_NF.ordenaMatriz(matriz);
         assertArrayEquals(esperado, matriz);
